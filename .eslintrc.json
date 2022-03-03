@@ -1,0 +1,130 @@
+{
+	"env": {
+		"browser": false,
+		"commonjs": true,
+		"es2021": true,
+		"node": true,
+		"jest/globals": true
+	},
+	"extends": [
+		"airbnb-base",
+		"plugin:node/recommended",
+		"plugin:jest/recommended"
+	],
+	"plugins": [
+		"jest",
+		"jsdoc"
+	],
+	"parserOptions": {
+		"ecmaVersion": 12
+	},
+	"rules": {
+		"no-unused-vars": "error",
+		"indent": [
+			2,
+			"tab"
+		],
+		"no-tabs": 0,
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single",
+			{
+				"allowTemplateLiterals": true
+			}
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-console": "off",
+		"operator-linebreak": [
+			"error",
+			"after"
+		],
+		"no-eval": "off",
+		"arrow-parens": [
+			2,
+			"as-needed"
+		],
+		"no-await-in-loop": "off",
+		"no-else-return": [
+			"error",
+			{
+				"allowElseIf": true
+			}
+		],
+		"no-plusplus": [
+			"error",
+			{
+				"allowForLoopAfterthoughts": true
+			}
+		],
+		"no-useless-catch": "error",
+		"node/exports-style": [
+			"error",
+			"module.exports"
+		],
+		"node/file-extension-in-import": [
+			"error",
+			"always"
+		],
+		"node/prefer-global/buffer": [
+			"error",
+			"always"
+		],
+		"node/prefer-global/console": [
+			"error",
+			"always"
+		],
+		"node/prefer-global/process": [
+			"error",
+			"always"
+		],
+		"node/prefer-global/url-search-params": [
+			"error",
+			"always"
+		],
+		"node/prefer-global/url": [
+			"error",
+			"always"
+		],
+		"node/prefer-promises/dns": "error",
+		"node/prefer-promises/fs": "error",
+		"jest/no-disabled-tests": "warn",
+		"jest/no-focused-tests": "error",
+		"jest/no-identical-title": "error",
+		"jest/prefer-to-have-length": "warn",
+		"jest/valid-expect": "error",
+		"jsdoc/check-access": 1,
+		"jsdoc/check-alignment": 1,
+		"jsdoc/check-param-names": 1,
+		"jsdoc/check-property-names": 1,
+		"jsdoc/check-tag-names": 1,
+		"jsdoc/check-types": 1,
+		"jsdoc/check-values": 1,
+		"jsdoc/empty-tags": 1,
+		"jsdoc/implements-on-classes": 1,
+		"jsdoc/multiline-blocks": 1,
+		"jsdoc/newline-after-description": 1,
+		"jsdoc/no-multi-asterisks": 1,
+		"jsdoc/no-undefined-types": 1,
+		"jsdoc/require-jsdoc": 1,
+		"jsdoc/require-param": 1,
+		"jsdoc/require-param-name": 1,
+		"jsdoc/require-param-type": 1,
+		"jsdoc/require-property": 1,
+		"jsdoc/require-property-description": 1,
+		"jsdoc/require-property-name": 1,
+		"jsdoc/require-property-type": 1,
+		"jsdoc/require-returns": 1,
+		"jsdoc/require-returns-check": 1,
+		"jsdoc/require-returns-type": 1,
+		"jsdoc/require-yields": 1,
+		"jsdoc/require-yields-check": 1,
+		"jsdoc/tag-lines": 1
+	}
+}

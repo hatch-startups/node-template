@@ -1,0 +1,38 @@
+{
+  "name": "mcs-notifications",
+  "version": "1.0.0",
+  "description": "MCS microservice to handle notifications with webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --setupFiles dotenv/config --watchAll --no-cache",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": [
+      "./__test__/setup.js"
+    ]
+  },
+  "author": "Hatch Tech",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.0",
+    "express": "4.17.3",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-jsdoc": "^37.9.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
